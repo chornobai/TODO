@@ -1,6 +1,6 @@
 {
   "name": "1-lesson",
-  "homepage": "https://chornonai.github.io/TODO",
+  "homepage": "https://chornonai.github.io",
 
   "jest": {
     "moduleNameMapper": {
@@ -35,7 +35,7 @@
     "typescript": "^5.3.3",
     "uuid": "^9.0.1",
     "web-vitals": "^3.5.1",
-    "gh-pages": "4.0.0"
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
