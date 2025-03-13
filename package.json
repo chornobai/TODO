@@ -1,6 +1,7 @@
 {
   "name": "1-lesson",
-  "homepage": "https://chornonai.github.io",
+  "homepage": "https://chornonai.github.io/Todolist",
+  "proxy": "https://social-network.samuraijs.com",
 
   "jest": {
     "moduleNameMapper": {
