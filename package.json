@@ -1,6 +1,7 @@
 {
   "name": "1-lesson",
-  "homepage": "https://chornobai.github.io/TODO",
+  "homepage": "https://chornonai.github.io/TODO",
+
   "jest": {
     "moduleNameMapper": {
       "axios": "axios/dist/node/axios.cjs"
