@@ -10,9 +10,6 @@ export const baseApi = createApi({
         headers.set("API-KEY", `${process.env.REACT_APP_API_KEY}` || "dc51b6a7-f90f-4230-9d2c-4a6c12ce1b73")
         headers.set("Authorization", `Bearer ${localStorage.getItem("sn-token")}`)
         const token = localStorage.getItem("sn-token")
-        if (token) {
-          headers.set("Authorization", `Bearer ${token}`)
-        }
       },
     })(args, api, extraOptions)
 
